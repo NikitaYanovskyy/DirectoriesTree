@@ -1,0 +1,14 @@
+.root {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  font-size: 0.85rem;
+  margin-bottom: 3px;
+}
+
+.error {
+  color: red;
+  margin: 5px 0 0 0;
+}
