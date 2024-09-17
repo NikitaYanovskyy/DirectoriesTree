@@ -49,8 +49,6 @@ export class EntitiesModel implements IEntitiesModel {
       return;
     }
 
-    // reset the filteredDirectoryTree, if the input value is erased
-
     const matchedEntities = this._findMatchedEntities(input);
 
     matchedEntities.forEach((matchedEntity) => {
